@@ -26,9 +26,7 @@ If you aren't familier with the root file format, it's actually not too bad. The
 To open data.root
 ```root data.root```
 
-This command essentially horizontally concatenates t and tgen, allowing you to compare properties of the same events together.
-t is the reconstructed event data
-tgen is the generated event data
+This command essentially horizontally concatenates t and tgen, allowing you to compare properties of the same events together. Where t is the reconstructed event data and tgen is the generated event data.
 
 ```t->AddFriend(tgen, "tg")```
 
