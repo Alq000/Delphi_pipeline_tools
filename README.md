@@ -27,9 +27,10 @@ To open data.root
 ```root data.root```
 
 This command essentially horizontally concatenates t and tgen, allowing you to compare properties of the same events together.
-```t->AddFriend(tgen, "tg")```
 t is the reconstructed event data
 tgen is the generated event data
+
+```t->AddFriend(tgen, "tg")```
 
 This draws the transverse momentum distribution of reconstructed particles of events containing exactly 2 particles
 ```t->Draw("sqrt(px**2+py**2)", "nParticle == 2);```
